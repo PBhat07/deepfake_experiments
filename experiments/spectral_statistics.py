@@ -109,11 +109,9 @@ print("T-test Real vs GAN:", t_gan)
 print("T-test Real vs Diffusion:", t_diff)
 
 
-# -----------------------------
-# Publication-Grade Visualization
-# -----------------------------
 
-# 1️⃣ Alpha Distribution Boxplot
+
+# Alpha Distribution Boxplot
 
 plt.figure(figsize=(6, 5))
 
@@ -141,7 +139,7 @@ plt.savefig(
 plt.close()
 
 
-# 2️⃣ KL Divergence Bar Plot
+#  KL Divergence Bar Plot
 
 plt.figure(figsize=(6, 4))
 
